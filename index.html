@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>AR-Horse</title>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+
+<style media="screen">
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .ani {
+    height: 100vh;
+    width: 100%;
+  }
+
+  .ani model-viewer {
+    height: 100%;
+    width: 100%;
+  }
+</style>
+
+<body>
+  <div class="ani">
+    <model-viewer src="https://modelviewer.dev/shared-assets/models/Horse.glb" ios-src="https://modelviewer.dev/shared-assets/models/Horse.usdz" ar auto-rotate camera-controls shadow-intensity="3" autoplay></model-viewer>
+
+  </div>
+
+
+
+
+
+</body>
+
+</html>
